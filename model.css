@@ -24,8 +24,11 @@ a{
 	font-weight: bolder;
 }
 .ab_us{
-	font-weight: bold;
+	font-weight: 600;
 }
+/* .list-style{
+	margin-right: auto;
+} */
 .servic{
 	font-weight: bolder;
 	font-size: 30px;
@@ -50,6 +53,9 @@ a{
 }
 .cont_us{
 	font-size: 40px;
+}
+.adap1{
+	margin-right: 20%;
 }
 body{
 	font-family: 'Open Sans';
@@ -123,7 +129,7 @@ main .main_about{
 	padding: 100px 0 100px 0;
 }
 .about_right{
-	margin-left: 175px;
+	margin-left: 11%;
 }
 .about_right h1{
 	display: inline-block;
@@ -178,6 +184,9 @@ main .main_about{
 	font-size: 20px;
 	margin-bottom: 7px;
 }
+/* .services_card{
+	width: 25%;
+} */
 .position{
 	font-size: 16px;
 	margin-bottom: 35px;
@@ -188,7 +197,7 @@ main .main_about{
 .services_cards{
 	text-align: center;
 	display: grid;
-	grid-column-gap:  20px;
+	grid-column-gap: 20px;
 	grid-template-columns: auto auto auto auto;
 }
 .main_services h1{

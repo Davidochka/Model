@@ -8,8 +8,51 @@ a{
 .li{
 	list-style: none;
 }
-.body{
-font-family: 'Open Sans', sans-serif;
+.textw{
+	font-weight: 100;
+}
+.yoe{
+	font-weight: bolder;
+}
+.ep{
+	font-weight: bolder;
+}
+.sw{
+	font-weight: 100;
+}
+.au{
+	font-weight: bolder;
+}
+.ab_us{
+	font-weight: bold;
+}
+.servic{
+	font-weight: bolder;
+	font-size: 30px;
+}
+.some_off{
+	font-weight: 100;
+}
+.take_see{
+	font-weight: 100;
+}
+.test_i{
+	font-weight: 100;
+}
+.inc{
+	font-weight: 900;
+}
+.our{
+	font-weight: bolder;
+}
+.our_cl{
+	font-weight: bolder;
+}
+.cont_us{
+	font-size: 40px;
+}
+body{
+	font-family: 'Open Sans';
 }
 header{
 	width: 100%;
@@ -69,6 +112,7 @@ main .main_welcome h1:after{
 }
 .mycompany{
 	color: #fcac45;
+	font-weight: 600;
 }
 .wrapper{
 	width: 76%;
@@ -90,7 +134,7 @@ main .main_about{
 	display: none;
 }
 .about_right p{
-	margin: 30px 0 50px 0;
+	margin: 30px 0 50px -10px;
 	color: #6c6c66;
 }
 .about_right li{
@@ -128,7 +172,7 @@ main .main_about{
 	display: flex;
 }
 .card{
-	margin: 0 40px;
+	margin: 0 10px;
 }
 .name{
 	font-size: 20px;
@@ -182,6 +226,10 @@ main .main_about{
 	text-transform: uppercase;
 	margin-bottom: 50px;
 }
+.testimonial{
+	margin-left: 13%;
+	margin-right: 13%;
+}
 .main_testimonials h1{
 	text-transform: uppercase;
 	margin-top: 100px;
@@ -204,6 +252,8 @@ main .main_about{
 .main_work p{
 	margin-bottom: 175px;
 	color: #6c6c6c;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 .main_work img:hover{
 	opacity: 0.9;
